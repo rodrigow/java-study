@@ -1,5 +1,7 @@
 package com.rodrigow.javastudy.collections;
 
+import com.rodrigow.javastudy.collections.model.Car;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -16,5 +18,9 @@ public class FirstCollections {
         // tips -> https://www.geeksforgeeks.org/how-to-learn-java-collections-a-complete-guide/
 
         return firstCollection;
+    }
+
+    public List<Car> createACarList() {
+        return null;
     }
 }
