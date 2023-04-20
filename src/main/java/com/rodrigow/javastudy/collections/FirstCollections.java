@@ -21,6 +21,12 @@ public class FirstCollections {
     }
 
     public List<Car> createACarList() {
-        return null;
+
+        List<Car> cars = new ArrayList<>();
+
+        cars.add(Car.fit());
+        cars.add(Car.voyage());
+
+        return cars;
     }
 }

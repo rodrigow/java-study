@@ -16,4 +16,14 @@ public class Car {
     public String getModel() {
         return model;
     }
+
+
+    public static Car fit(){
+        return new Car("Honda", "Fit");
+    }
+
+    public static Car voyage(){
+        return new Car("Volkswagen", "Voyage");
+    }
+
 }
