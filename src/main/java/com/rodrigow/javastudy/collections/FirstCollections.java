@@ -5,6 +5,7 @@ import com.rodrigow.javastudy.collections.model.Car;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Set;
 
 public class FirstCollections {
     public Collection<String> createACollectionWith2StringsAnaAndRodrigo() {
@@ -28,5 +29,13 @@ public class FirstCollections {
         cars.add(Car.voyage());
 
         return cars;
+    }
+
+    public Set<Car> createACarSet() {
+        return null;
+    }
+
+    public Collection<Car> removeDuplicatedCars(ArrayList<Car> duplicatedCars) {
+        return null;
     }
 }
