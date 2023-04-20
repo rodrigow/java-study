@@ -22,7 +22,7 @@ public class FirstCollectionsTest {
     }
 
     @Test
-    public void shouldCreateCardList() {
+    public void shouldCreateCarList() {
         FirstCollections firstCollections = new FirstCollections();
         List<Car> cars = firstCollections.createACarList();
 
